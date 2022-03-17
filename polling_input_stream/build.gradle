@@ -32,7 +32,6 @@ repositories {
 }
 
 dependencies {
-  compile 'ros.rosjava_core:rosjava:0.0.0-SNAPSHOT'
-  testCompile 'junit:junit:4.8.2'
+  implementation 'ros.rosjava_core:rosjava:0.3.6'
 }
 

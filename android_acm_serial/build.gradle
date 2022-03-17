@@ -13,11 +13,6 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-
-dependencies {
-  compile project(':android_core_components')
-}
-
 apply plugin: 'com.android.library'
 
 android {
@@ -29,4 +24,8 @@ android {
     versionCode 1
     versionName "1.0"
   }
+}
+
+dependencies {
+  implementation project(':android_core_components')
 }

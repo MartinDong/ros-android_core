@@ -85,7 +85,7 @@ public class OrientationPublisher extends AbstractNodeMain {
       // 10 Hz
       sensorManager.registerListener(orientationListener, sensor, 500000);
     } catch (Exception e) {
-      connectedNode.getLog().fatal(e);
+      e.printStackTrace();
     }
   }
 }
